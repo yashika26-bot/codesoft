@@ -88,7 +88,7 @@ axes[1, 2].set_ylim(0, 1)
 
 plt.tight_layout()
 plt.savefig("eda_plots.png", dpi=150, bbox_inches="tight")
-plt.show()
+plt.close()
 print("\n✔️ EDA plots saved → eda_plots.png")
 
 # ─────────────────────────────────────────────
